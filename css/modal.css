@@ -32,6 +32,9 @@
 .backdrop.is-open .modal {
     transform: translate(-50%, -50%) scale(1);
 }
+.modal-form{
+    margin-top: 16px;
+}
 .modal-close-btn {
     position: absolute;
     top: 24px;
@@ -43,7 +46,7 @@
     height: 24px;
     border-radius: 50%;
     background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -105,6 +108,9 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15)
 }
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
@@ -138,6 +144,9 @@
 }
 .form-comment:focus {
     border-color: #4d5ae5;
+}
+.form-comment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
 }
 .checkbox-wrapper {
     margin-bottom: 24px;
