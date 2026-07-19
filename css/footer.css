@@ -70,7 +70,10 @@
     fill: #f4f4fd;
 }
 .footer-socials{
-    margin-right: 120px;
+    margin-right: 83px;
+}
+.subscribe-box{
+    margin-left: auto;
 }
 .subscribe-form {
     display: flex;
@@ -85,7 +88,7 @@
     background-color: transparent;
     padding-left: 16px;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     outline: transparent;
