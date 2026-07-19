@@ -1,5 +1,13 @@
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
+        <symbol id="close" viewBox="0 0 8 8" fill="none">
+            <path fill="currentColor" d="M8 0.8057 7.1943 0 4 3.1943 0.8057 0 0 0.8057 3.1943 4 0 7.1943 0.8057 8 4 4.8057 7.1943 8 8 7.1943 4.8057 4z" />
+            <defs>
+                <clipPath id="clip0_1079055_619">
+                    <rect fill="#fff" width="8" height="8" />
+                </clipPath>
+            </defs>
+        </symbol>
         <symbol id="phone" viewBox="0 0 18 24" fill="none">
             <path fill="currentColor" d="M14.7263 13.8651l-1.8382-0.2099c-0.4414-0.0506-0.8756 0.1014-1.1868 0.4125l-1.3316 1.3316c-2.048-1.0421-3.7269-2.7138-4.769-4.769l1.3388-1.3389C7.2507 8.9803 7.4026 8.546 7.352 8.1046L7.1421 6.2809C7.0553 5.55 6.4401 5 5.702 5H4.45C3.6323 5 2.952 5.6803 3.0027 6.498c0.3835 6.1803 5.3262 11.1158 11.4992 11.4993 0.8178 0.0507 1.498-0.6296 1.498-1.4473v-1.252c73e-4-0.7309-0.5427-1.346-1.2736-1.4329z" />
             <defs>
