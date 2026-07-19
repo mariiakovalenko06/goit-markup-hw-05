@@ -92,15 +92,23 @@
     border-color: #4d5ae5;
 }
 .modal-submit-btn{
+    display: block;
+    min-width: 169px;
+    height: 56px;
     background-color: #4d5ae5;
     color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    padding: 8px 24px;
+    padding: 16px 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
-    
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+    background-color: #404bbf;
 }
 .input-icon {
     position: absolute;
